@@ -3,7 +3,7 @@ fun main(args : Array<String>){
     val topping : IntArray = intArrayOf(1, 2, 1, 3, 1, 4, 1, 2)
     print(solution(topping))
 }
-fun solution(topping: IntArray): Int {
+private fun solution(topping: IntArray): Int {
     var answer: Int = 0
 
     val a = HashMap<Int, Int>()
